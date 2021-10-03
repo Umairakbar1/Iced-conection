@@ -11,7 +11,7 @@ class NavBar extends Component {
             <React.Fragment>
                 <div style={{backgroundColor:"black",color:"white",padding:"40px 6% 10px 6%"}}>
                 <div className="log-in-div">
-                    <p>Log in <img src={lockIcon} alt="lock icon"/></p>
+                    <p>Log in <img src={lockIcon} alt="lock"/></p>
                 </div>
                 <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
             
