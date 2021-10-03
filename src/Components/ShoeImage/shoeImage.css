@@ -1,0 +1,23 @@
+.shoe-image-div{
+    opacity: 1;
+    margin-top: 40px;
+    cursor: pointer;
+}   
+.show-image{
+    width: 100%;
+}
+.heart-icon{
+    margin-top: -60px;
+    margin-left: 50px;
+    z-index: 1;
+    position: absolute;
+    color: red;
+    display: none;
+    cursor: pointer;
+}
+.shoe-image-div:hover{
+    opacity: 0.7;
+}
+.shoe-image-div:hover .heart-icon{
+    display: block;
+}
