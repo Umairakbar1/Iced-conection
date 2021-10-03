@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.healvetica-bold{
+  font-family: helvetica-w01-bold;
+}
+.healvetica-roman{
+  font-family: helvetica-w01-roman;
+}

@@ -15,28 +15,30 @@ class ShoeImages extends Component {
         return (
             <React.Fragment>
                 <Container fluid className="bg-black">
+                    <div className="show-image-div">
                     <Row>
-                        <Col>
+                        <Col lg={4} md={6} sm={12} xs={12}>
                             <ShoeImageDiv />
                         </Col>
-                        <Col>
+                        <Col lg={4} md={6} sm={12} xs={12}>
                             <ShoeImageDiv Images={ShoeImage3}/>
                         </Col>
-                        <Col>
+                        <Col lg={4} md={6} sm={12} xs={12}>
                             <ShoeImageDiv Images={ShoeImage4}/>
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col lg={4} md={6} sm={12} xs={12}>
                             <ShoeImageDiv Images={ShoeImage5}/>
                         </Col>
-                        <Col>
+                        <Col lg={4} md={6} sm={12} xs={12}>
                             <ShoeImageDiv Images={ShoeImage6}/>
                         </Col>
-                        <Col>
+                        <Col lg={4} md={6} sm={12} xs={12}>
                             <ShoeImageDiv Images={ShoeImage7}/>
                         </Col>
                     </Row>
+                    </div>
                 </Container>
             </React.Fragment>
         );

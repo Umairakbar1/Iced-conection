@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "helvetica-w01-bold";
+  src: local("helvetica-w01-bold"),
+   url("./Fonts/Helvetica\ W01\ Bold/Helvetica W01 Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "helvetica-w01-roman";
+    src: local("helvetica-w01-roman"),
+     url("./Fonts/Helvetica\ W01\ Roman/Helvetica W01 Roman.ttf") format("truetype");
+    }

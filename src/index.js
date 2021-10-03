@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
+import "./Fonts/Helvetica W01 Bold/Helvetica W01 Bold.ttf";
+import "./Fonts/Helvetica\ W01\ Roman/Helvetica W01 Roman.ttf"
 ReactDOM.render(
   <React.StrictMode>
     <App />
