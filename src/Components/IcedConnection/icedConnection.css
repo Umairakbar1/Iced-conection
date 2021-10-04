@@ -4,11 +4,13 @@
     color: white;
     text-align: center;
 }
-.iced-connection-heading{
-    font-size: 4.5vw;
+.iced-text-div h1{
+    font-size: 4.3vw;
     font-weight: 400;
     text-transform: uppercase;
     margin-top: 50px;
+    font-family: helvetica-w01-bold;
+
 }
 .iced-connection-image{
     width: 100%;
@@ -16,7 +18,7 @@
 .iced-text-div{
     text-align: center;
 }
-.iced-sm-text{
+.iced-text-div sup{
     /* top: -20px; */
     font-size: 2.5vw;
 }
@@ -43,17 +45,17 @@
 .iced-connect-button:hover{
     background-color: #A3A3A3;
 }
-.buy-arbibac-heading{
-    font-size: 32px;
+.buy-iced-out-heading{
+    font-size: 20px;
     font-weight: 600;
     font-family: helvetica-w01-bold;
     text-transform: uppercase;
     margin-top: 30px;
 }
-.buy-arbibac-pararaph{
-    font-size: 18px;
+.buy-iced-out-pararaph{
+    font-size: 14px;
     font-weight: 500;
-    font-family: helvetica-w01-bold;
+    font-family: helvetica-w01-roman;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
@@ -64,14 +66,14 @@
     width: 40px;
     font-size: 18px;
 }
-.iced-buy-arbibayc-div{
+.iced-buy-div{
     border: 1px solid #69696B;
     width: 700px;
     margin: 10px auto;
     padding: 30px;
     border-radius: 5px;
 }
-.iced-buy-arbibayc-div-main{
+.iced-buy-div-main{
     display: flex;
     justify-content: center;
     font-family: helvetica-w01-roman;
@@ -82,12 +84,12 @@
     justify-content: center;
     padding:0px 20px;
 }
-.iced-buy-arbibayc-div p{
+.iced-buy-div p{
     margin: auto 10px;
     width: 70px;
     font-size: 18px;
 }
-.iced-buy-arbibayc-div button{
+.iced-buy-div button{
     text-transform: uppercase;
     background-color: #5043D9;
     color: white;
@@ -98,7 +100,7 @@
     height: 50px;
 }
 @media only screen and (max-width:991px) {
-    .iced-buy-arbibayc-div{
+    .iced-buy-div{
         border: 1px solid #69696B;
         width: 100%;
         margin: 10px auto;
@@ -106,24 +108,24 @@
         border-radius: 5px;
         text-align: center;
     }
-    .iced-buy-arbibayc-div-main{
+    .iced-buy-div-main{
         display: flex;
         justify-content: center;
         flex-direction: column;
         text-align: center;
     }
-    .iced-buy-arbibayc-div-main p{
+    .iced-buy-div-main p{
         width: 100%;
         margin-top: 20px;
         text-align: center;
     }
-    .iced-buy-arbibayc-div p{
+    .iced-buy-div p{
         margin: auto 0px;
         font-size: 18px;
     }
 }
 @media only screen and (max-width:768px) {
-    .iced-connection-heading{
+    .iced-text-div h1{
         font-size: 42px;
     }
     .iced-main-container{
@@ -131,10 +133,10 @@
         background-color: #191919;
         color: white;
     }
-    .buy-arbibac-heading{
+    .buy-iced-out-heading{
         font-size: 25px;
     }
-    .buy-arbibac-pararaph{
+    .buy-iced-out-pararaph{
         font-size: 14px;
     }
     .iced-connection-description{
@@ -148,10 +150,10 @@
     
 }
 @media only screen and (max-width:600px) {
-    .iced-connection-heading{
+    .iced-text-div h1{
         font-size: 22px;
     }
-    .iced-sm-text{
+    .iced-text-div sup{
         font-size: 14px;
         top: -5px;
     }
