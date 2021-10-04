@@ -13,4 +13,11 @@
     font-size: 18px;
     font-weight: 400;
     font-weight: 400;
+    font-family: helvetica-w01-bold;
+}
+.iced-view-div{
+    background-color: #191919;
+}
+.lets-chat-button img{
+    margin-right: 10px;
 }

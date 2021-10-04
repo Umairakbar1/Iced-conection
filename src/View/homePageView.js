@@ -14,12 +14,12 @@ class HomePagView extends Component {
             <React.Fragment>
                 <div>
                     <NavBar/>
-                    <div style={{backgroundColor:"#191919"}}>
+                    <div className="iced-view-div">
                     <IcedConnection/>
                     </div>
                     <ShoeImages/>
                     <StayTuned/>
-                    <button className="lets-chat-button healvetica-bold"><img style={{marginRight:"10px"}} src={MessageIcon}/>Let's Chat!</button>
+                    <button className="lets-chat-button"><img  src={MessageIcon} alt="message icon"/>Let's Chat!</button>
                 </div>
             </React.Fragment>
         );

@@ -9,45 +9,52 @@
 .stay-tuned-text-colom{
     padding: 80px 15% 110px 15%;
 }
-.stay-tuned-heading{
+.stay-tuned-text-colom h3{
     font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
+    font-family: helvetica-w01-bold;
 }
-.stay-tuned-heading-description{
+.stay-tuned-heading-description p{
     font-size: 15px;
     font-weight: 400;
     line-height: 28px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
-.stay-tuned-heading-email{
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 0px;
-}
-.stay-tuned-heading-phone{
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 0px;
-}
-.stay-tuned-label{
+.form-div label{
     width: 100%;
     text-align: left;
     color: white;
     margin-top: 10px;
     margin-left: 5px;
+    font-family: helvetica-w01-roman;
+
 }
-.stay-tuned-input{
+.form-div input{
     width: 100%;
     background-color: transparent;
     border: 1px solid transparent;
     border-bottom: 1px solid white;
     padding: 10px 5px;
+    font-family: helvetica-w01-roman;
 }
-.stay-tuned-input:hover{
+.form-div input:hover{
     border: 1px solid white;
 
 }
+.form-div textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+    padding: 10px 5px;
+    font-family: helvetica-w01-roman;
+}
+.form-div textarea:hover{
+    border: 1px solid white;
+
+}
+
 ::placeholder {
     color: white;
     opacity: 1; /* Firefox */
@@ -65,7 +72,7 @@
    font-size: 15px;
 
   }
-.stay-tuned-submit-button{
+.form-div button{
     width: 100%;
     background-color: white;
     color: black;
@@ -73,6 +80,7 @@
     height: 50px;
     line-height: 50px;
     margin-top: 10px;
+    font-family: helvetica-w01-roman;
 }
 .footer-text{
     margin-top: 100px;
@@ -80,7 +88,7 @@
     font-size: 14px;
     font-weight: 400;
 }
-.stay-tuned-image{
+.image-coloum img{
     width: 100%;
     height: 100%;
 }
@@ -91,7 +99,7 @@
         color: white;
         background-color: black;
     }
-    .stay-tuned-heading{
+    .stay-tuned-text-colom h3{
         font-size: 22px;
     }
     .stay-tuned-text-colom{

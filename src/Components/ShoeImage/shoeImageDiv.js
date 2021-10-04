@@ -13,7 +13,7 @@ class ShoeImageDiv extends Component {
             <React.Fragment>
                 <Container fluid className="bg-black">
                     <div className="shoe-image-div">
-                        <img className="show-image" src={this.props.Images?this.props.Images:ShoeImage} alt="shoe Images"/>
+                        <img src={this.props.Images?this.props.Images:ShoeImage} alt="shoe Images"/>
                         <div className="heart-icon">
                             <span><img src={HeartImage} width="30px"/></span>
                         </div>
