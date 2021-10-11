@@ -13,7 +13,7 @@ class IcedConnection extends Component {
             <React.Fragment>
                 <Container fluid>
                 <div className="iced-main-container">
-                    <img src={IcedShoeImage} className="iced-connection-image" />
+                    <img src={IcedShoeImage} className="iced-connection-image" alt="Shoe image"/>
                     <div className="iced-text-div">
                         <h1>
                             iced out CONNECTION<sup>SM</sup>
